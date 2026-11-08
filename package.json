@@ -1,0 +1,17 @@
+{
+  "name": "appbooking-acessos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env scripts/iniciar.js",
+    "test": "node --test --test-concurrency=1 testes/*.test.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "express": "^5.1.0"
+  }
+}
